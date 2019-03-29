@@ -92,4 +92,4 @@ mint for ERC721, truffle get result transaction and fall with error, pls see bel
           at endReadableNT (_stream_readable.js:1132:12)
           at processTicksAndRejections (internal/process/next_tick.js:76:17)
 
-If I rename emit Transfer in ERC20 mint function (in openzeppelin library) to emit Transfer1, I also added Transfer1 to IERC20, my tests work as they suppose to work. I think that truffle have some issues with decoding events with the same name which is very strange, these events has different signatures  
+If I rename emit Transfer in ERC20 mint function (in openzeppelin library) to emit Transfer1, I also added Transfer1 to IERC20, my tests work as they suppose to work. I think that truffle has some issues with decoding events with the same name which is very strange, these events has different signatures  
